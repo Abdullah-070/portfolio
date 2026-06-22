@@ -84,9 +84,9 @@ const Home = () => {
                   As an enthusiastic Software Developer, 
                   {" "}
                   <span className="text-primary-600 font-semibold">
-                     I specialize in building scalable web applications
+                     I build fast, scalable apps with
                   </span>{" "}
-                  with React, Next.js, and modern technologies. Currently completing my CS degree while working on real-world projects.
+                  React, Next.js, and modern technologies. Currently completing my CS degree while working on real-world projects.
                 </p>
 
                 {/* Key Highlights */}
@@ -98,7 +98,7 @@ const Home = () => {
                     Full Stack Development
                   </span>
                   <span className="bg-primary-50 text-primary-700 px-4 py-2 rounded-full text-sm font-medium border border-primary-200">
-                    SEO Optimized
+                    AI Integration
                   </span>
                 </div>
               </div>
