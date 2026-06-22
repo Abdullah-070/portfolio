@@ -11,15 +11,14 @@ Aspiring Full-Stack Developer | CS Student @ COMSATS Lahore '27 | Frontend & Pyt
 - HTML5
 - CSS3
 - JavaScript
+- Typescript
 
 ## 📂 Sections
 
 - About Me
 - Technical Skills
 - Featured Projects
-- Professional Experience
-- Certifications
-- Achievements
+- Experience
 - Contact
 
 ## 📫 Contact
