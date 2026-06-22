@@ -81,7 +81,7 @@ const Home = () => {
               {/* Enhanced Description */}
               <div className="space-y-6">
                 <p className="text-gray-700 text-lg lg:text-xl xl:text-2xl leading-relaxed max-w-2xl animate-fade-in-up delay-500">
-                  As an enthusiastic Web Developer, 
+                  As an enthusiastic Software Developer, 
                   {" "}
                   <span className="text-primary-600 font-semibold">
                      I specialize in building scalable web applications
