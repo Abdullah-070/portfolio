@@ -27,11 +27,12 @@ export const projectData = [
     image: autocare,
     title: "Auto Care Store",
     description:
-      "A full-stack ecommerce platform for buying and selling auto spare parts with JWT authentication, admin dashboard, and React frontend.",
+      "A full-stack ecommerce platform for buying and selling auto spare parts (Dummy Products added) with JWT authentication, admin dashboard, and React frontend.",
     technologies: ["React.js", "Node.js", "Express", "MongoDB", "JWT Authentication"],
     status: "Completed",
     year: "2026",
-    github: "https://github.com/Abdullah-070/auto-care-system"
+    github: "https://github.com/Abdullah-070/auto-care-system",
+    link: "https://auto-care-system-frontend.vercel.app/"
   },
   {
     image: weatherapp,
