@@ -6,8 +6,8 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Experience | Muhammad Abdullah - Software Developer",
   description:
-    "Explore the professional experience of Muhammad Abdullah, a software developer with expertise in frontend development, SEO, and Python programming.",
-  keywords: ["Experience", "Work History", "Frontend Developer", "Internships", "Professional Journey"],
+    "Explore the professional experience of Muhammad Abdullah, a software developer with expertise in full-stack development, community leadership, SEO, and Python programming.",
+  keywords: ["Experience", "Work History", "Full-Stack Developer", "Internships", "Professional Journey"],
   robots: "index, follow",
 };
 
@@ -29,7 +29,7 @@ const Experience = () => {
           </p>
         </div>
 
-        {/* Experience Card 1 - Python Developer (Most Recent) */}
+        {/* Experience Card 1 - Full-Stack Intern @ Sanestix (Most Recent) */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden animate-fade-in-up delay-300 mb-8">
           <div className="p-8 lg:p-12">
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
@@ -38,28 +38,28 @@ const Experience = () => {
                 <div className="space-y-6">
                   <div className="space-y-4">
                     <h3 className="text-2xl lg:text-3xl font-bold text-primary-600">
-                      Umti Tech Solutions
+                      Sanestix
                     </h3>
                     <div className="inline-block bg-primary-50 text-primary-700 px-4 py-2 rounded-full text-sm font-semibold border border-primary-200">
-                      Python Developer Intern
+                      Full-Stack Intern
                     </div>
                   </div>
 
                   <div className="space-y-3">
                     <div className="flex items-center gap-3 text-gray-600">
                       <Calendar className="w-5 h-5 text-primary-600" />
-                      <span className="font-medium">February 2026</span>
+                      <span className="font-medium">July 2026 - Present</span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-600">
                       <MapPin className="w-5 h-5 text-primary-600" />
-                      <span>Remote</span>
+                      <span>Hybrid</span>
                     </div>
                   </div>
 
                   <div className="space-y-3">
                     <h3 className="text-lg font-semibold text-gray-800">Technologies Used</h3>
                     <div className="flex flex-wrap gap-2">
-                      {["Python", "Automation", "Backend", "Scripts"].map((tech) => (
+                      {["Python", "Playwright", "Selenium", "BeautifulSoup", "Redis", "MongoDB", "Node.js", "Jira"].map((tech) => (
                         <span key={tech} className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-medium">
                           {tech}
                         </span>
@@ -72,21 +72,42 @@ const Experience = () => {
               {/* Experience Details */}
               <div className="lg:w-2/3">
                 <h3 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-6">
-                  Python Developer <span className="text-primary-600">@ Umti Tech Solutions</span>
+                  Full-Stack Intern <span className="text-primary-600">@ Sanestix</span>
                 </h3>
 
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 text-lg leading-relaxed">
-                      Developed Python automation scripts and backend utilities as part of a professional remote engineering team.
+                      Building the Python scraper engine for a multi-source lead-generation platform, developing modular scrapers (LinkedIn, Google Maps, Website, Facebook, Instagram) with Playwright, Selenium, and BeautifulSoup.
                     </p>
                   </div>
 
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 text-lg leading-relaxed">
-                      Worked on production-level Python development and system automation tasks in a collaborative remote environment.
+                      Designed a standardized output envelope and per-scraper result schema for consistent, null-safe fields across all modules.
+                    </p>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
+                    <p className="text-gray-700 text-lg leading-relaxed">
+                      Built a Redis-based worker (BRPOP queue consumer) that decouples the Python engine from the Node.js backend via plain JSON, avoiding queue-framework lock-in.
+                    </p>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
+                    <p className="text-gray-700 text-lg leading-relaxed">
+                      Integrated with MongoDB (PyMongo) to track job status and persist scraped results, coordinating a cross-language API contract with the backend engineer.
+                    </p>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
+                    <p className="text-gray-700 text-lg leading-relaxed">
+                      Applied project management practices and used Jira to track, prioritize, and resolve bugs and tickets throughout the sprint cycle.
                     </p>
                   </div>
                 </div>
@@ -95,7 +116,7 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Experience Card 2 - Frontend Developer */}
+        {/* Experience Card 2 - Volunteer Intern @ Alkhidmat Foundation */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden animate-fade-in-up delay-400 mb-8">
           <div className="p-8 lg:p-12">
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
@@ -104,28 +125,28 @@ const Experience = () => {
                 <div className="space-y-6">
                   <div className="space-y-4">
                     <h3 className="text-2xl lg:text-3xl font-bold text-primary-600">
-                      Elevvo Pathways
+                      Alkhidmat Foundation Pakistan
                     </h3>
                     <div className="inline-block bg-primary-50 text-primary-700 px-4 py-2 rounded-full text-sm font-semibold border border-primary-200">
-                      Frontend Developer Intern
+                      Volunteer Intern
                     </div>
                   </div>
 
                   <div className="space-y-3">
                     <div className="flex items-center gap-3 text-gray-600">
                       <Calendar className="w-5 h-5 text-primary-600" />
-                      <span className="font-medium">August 2025</span>
+                      <span className="font-medium">July 2026 - Present</span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-600">
                       <MapPin className="w-5 h-5 text-primary-600" />
-                      <span>Remote</span>
+                      <span>Hybrid, Lahore, Pakistan</span>
                     </div>
                   </div>
 
                   <div className="space-y-3">
-                    <h3 className="text-lg font-semibold text-gray-800">Technologies Used</h3>
+                    <h3 className="text-lg font-semibold text-gray-800">Skills Applied</h3>
                     <div className="flex flex-wrap gap-2">
-                      {["React.js", "JavaScript", "CSS", "HTML", "TailwindCSS"].map((tech) => (
+                      {["Disaster Response", "First Aid", "Project Management", "Community Engagement"].map((tech) => (
                         <span key={tech} className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-medium">
                           {tech}
                         </span>
@@ -138,28 +159,21 @@ const Experience = () => {
               {/* Experience Details */}
               <div className="lg:w-2/3">
                 <h3 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-6">
-                  Frontend Developer <span className="text-primary-600">@ Elevvo Pathways</span>
+                  Volunteer Intern <span className="text-primary-600">@ Alkhidmat Foundation Pakistan</span>
                 </h3>
 
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 text-lg leading-relaxed">
-                      Built the TaskFlow landing page with scroll animations and responsive layout achieving strong mobile performance score.
+                      Completing structured weekly training in disaster response, including First Aid, BLS, fire-fighting, and water rescue orientation.
                     </p>
                   </div>
 
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 text-lg leading-relaxed">
-                      Implemented real-time form validation and dynamic blog features including search, filtering, and pagination.
-                    </p>
-                  </div>
-
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
-                    <p className="text-gray-700 text-lg leading-relaxed">
-                      Contributed to page load improvements through JS/CSS optimization.
+                      Currently executing the Water Harvesting community impact project, applying project management, teamwork, and community engagement skills to deliver a social-impact initiative.
                     </p>
                   </div>
                 </div>
@@ -168,8 +182,79 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Experience Card 3 - SEO Intern */}
+        {/* Experience Card 3 - Ambassador @ LoopLab */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden animate-fade-in-up delay-500 mb-8">
+          <div className="p-8 lg:p-12">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
+              <div className="lg:w-1/3">
+                <div className="space-y-6">
+                  <div className="space-y-4">
+                    <h3 className="text-2xl lg:text-3xl font-bold text-primary-600">
+                      LoopLab
+                    </h3>
+                    <div className="inline-block bg-primary-50 text-primary-700 px-4 py-2 rounded-full text-sm font-semibold border border-primary-200">
+                      Ambassador
+                    </div>
+                  </div>
+
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3 text-gray-600">
+                      <Calendar className="w-5 h-5 text-primary-600" />
+                      <span className="font-medium">February 2026 - June 2026</span>
+                    </div>
+                    <div className="flex items-center gap-3 text-gray-600">
+                      <MapPin className="w-5 h-5 text-primary-600" />
+                      <span>Lahore, Pakistan</span>
+                    </div>
+                  </div>
+
+                  <div className="space-y-3">
+                    <h3 className="text-lg font-semibold text-gray-800">Skills Applied</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["Community Outreach", "Leadership", "Communication", "Strategy"].map((tech) => (
+                        <span key={tech} className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-medium">
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="lg:w-2/3">
+                <h3 className="text-2xl lg:text-3xl font-bold text-gray-800 mb-6">
+                  Ambassador <span className="text-primary-600">@ LoopLab</span>
+                </h3>
+
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
+                    <p className="text-gray-700 text-lg leading-relaxed">
+                      Selected to represent LoopLab and support the growth of a tech-driven community centered on immersive virtual experiences through Loopverse 2.0.
+                    </p>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
+                    <p className="text-gray-700 text-lg leading-relaxed">
+                      Led outreach campaigns, participated in strategy discussions, and connected students with innovation-focused opportunities.
+                    </p>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
+                    <p className="text-gray-700 text-lg leading-relaxed">
+                      Strengthened leadership, communication, and teamwork skills in a dynamic digital environment.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Experience Card 4 - SEO Intern @ Mind Canvas */}
+        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden animate-fade-in-up delay-600 mb-8">
           <div className="p-8 lg:p-12">
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
               <div className="lg:w-1/3">
@@ -232,8 +317,8 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Experience Card 4 - Python Developer (Ilm O Irfan) */}
-        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden animate-fade-in-up delay-600">
+        {/* Experience Card 5 - Python Developer (Ilm O Irfan) */}
+        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden animate-fade-in-up delay-700">
           <div className="p-8 lg:p-12">
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
               <div className="lg:w-1/3">

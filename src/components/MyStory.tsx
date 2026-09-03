@@ -11,28 +11,28 @@ import {
 const MyStory = () => {
   const storyTimeline = [
     {
-      year: "Feb 2024 - Dec 2027",
-      title: "COMSATS University Islamabad",
+      year: "Jul 2026 - Present",
+      title: "Full-Stack Intern - Sanestix",
       description:
-        "BS Computer Science at COMSATS University Islamabad, Lahore Campus with a CGPA of 3.35/4.0. Relevant coursework: Data Structures & Algorithms, OOP, Database Systems, Web Technologies, AI, and Operating Systems.",
-      icon: GraduationCap,
-      color: "from-primary-light to-primary-600",
-    },
-    {
-      year: "Aug 2025",
-      title: "Frontend Developer Intern - Elevvo Pathways",
-      description:
-        "Built the TaskFlow landing page with scroll animations and responsive layout achieving strong mobile performance. Implemented real-time form validation and dynamic blog features including search, filtering, and pagination. Contributed to page load improvements through JS/CSS optimization.",
-      icon: Rocket,
-      color: "from-blue-500 to-blue-600",
-    },
-    {
-      year: "Feb 2026",
-      title: "Python Developer Intern - Umti Tech Solutions",
-      description:
-        "Developed Python automation scripts and backend utilities as part of a professional remote engineering team, working on production-level Python development and system automation.",
+        "Building the Python scraper engine for a multi-source lead-generation platform with Playwright, Selenium, and BeautifulSoup. Built a Redis-based worker and integrated MongoDB for job tracking, while applying project management practices and Jira to resolve bugs and tickets. Hybrid.",
       icon: Code2,
       color: "from-orange-500 to-orange-600",
+    },
+    {
+      year: "Jul 2026 - Present",
+      title: "Volunteer Intern - Alkhidmat Foundation Pakistan",
+      description:
+        "Completing structured weekly training in disaster response, including First Aid, BLS, fire-fighting, and water rescue orientation. Executing the Water Harvesting community impact project. Hybrid, Lahore.",
+      icon: Heart,
+      color: "from-red-500 to-red-600",
+    },
+    {
+      year: "Feb - Jun 2026",
+      title: "Ambassador - LoopLab",
+      description:
+        "Represented LoopLab to support the growth of a tech-driven community centered on immersive virtual experiences through Loopverse 2.0. Led outreach campaigns and connected students with innovation-focused opportunities.",
+      icon: Rocket,
+      color: "from-blue-500 to-blue-600",
     },
     {
       year: "Feb - May 2025",
@@ -49,6 +49,14 @@ const MyStory = () => {
         "Completed structured Python training covering data structures and OOP. Delivered a Movie Recommendation System and a Hangman Game as internship projects.",
       icon: Code2,
       color: "from-orange-500 to-orange-600",
+    },
+    {
+      year: "Feb 2024 - Dec 2027",
+      title: "COMSATS University Islamabad",
+      description:
+        "BS Computer Science at COMSATS University Islamabad, Lahore Campus with a CGPA of 3.28/4.0. Relevant coursework: Data Structures & Algorithms, OOP, Database Systems, Web Technologies, AI, and Operating Systems.",
+      icon: GraduationCap,
+      color: "from-primary-light to-primary-600",
     },
   ];
 
