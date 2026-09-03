@@ -14,7 +14,7 @@ const MyStory = () => {
       year: "Jul 2026 - Present",
       title: "Full-Stack Intern - Sanestix",
       description:
-        "Building the Python scraper engine for a multi-source lead-generation platform with Playwright, Selenium, and BeautifulSoup. Built a Redis-based worker and integrated MongoDB for job tracking, while applying project management practices and Jira to resolve bugs and tickets. Hybrid.",
+        "Building the Python scraper engine for a multi-source lead-generation platform with Playwright, Selenium, and BeautifulSoup. Built a Redis-based worker and integrated MongoDB for job tracking, while applying project management practices and Jira to resolve bugs and tickets.",
       icon: Code2,
       color: "from-orange-500 to-orange-600",
     },
@@ -22,7 +22,7 @@ const MyStory = () => {
       year: "Jul 2026 - Present",
       title: "Volunteer Intern - Alkhidmat Foundation Pakistan",
       description:
-        "Completing structured weekly training in disaster response, including First Aid, BLS, fire-fighting, and water rescue orientation. Executing the Water Harvesting community impact project. Hybrid, Lahore.",
+        "Completing structured weekly training in disaster response, including First Aid, BLS, fire-fighting, and water rescue orientation. Executing the Water Harvesting community impact project.",
       icon: Heart,
       color: "from-red-500 to-red-600",
     },
