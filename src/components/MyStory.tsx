@@ -35,6 +35,30 @@ const MyStory = () => {
       color: "from-blue-500 to-blue-600",
     },
     {
+      year: "Feb - Jun 2026",
+      title: "Volunteer - Fruitful Foundation",
+      description:
+        "Contributed to a youth-led social welfare chapter at COMSATS Lahore, organizing monthly fundraising campaigns including Iftar drives, Rashan distributions, orphanage visits, and a campus plantation drive.",
+      icon: Heart,
+      color: "from-red-500 to-red-600",
+    },
+    {
+      year: "Feb 2026",
+      title: "Python Intern - Umti Tech Solutions",
+      description:
+        "Completed a one-month remote internship focused on Python programming, developing efficient and scalable solutions for real-world development tasks and gaining hands-on experience in automation and backend technologies.",
+      icon: Code2,
+      color: "from-orange-500 to-orange-600",
+    },
+    {
+      year: "Aug 2025",
+      title: "Frontend Developer Intern - Elevvo Pathways",
+      description:
+        "Built the TaskFlow landing page with scroll animations and responsive layout achieving strong mobile performance. Implemented real-time form validation and dynamic blog features including search, filtering, and pagination.",
+      icon: Rocket,
+      color: "from-blue-500 to-blue-600",
+    },
+    {
       year: "Feb - May 2025",
       title: "SEO Intern - Mind Canvas",
       description:
