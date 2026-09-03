@@ -148,6 +148,7 @@ const About = () => {
       {/* Rest of the sections */}
       <Myplace />
       <MyStory />
+      <Experience />
     </main>
   );
 };
