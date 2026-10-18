@@ -1,6 +1,7 @@
 "use client";
 
 import { projectData } from "@/data/projectData";
+import ProjectDetails from "@/components/ProjectDetails";
 import Image from "next/image";
 import React from "react";
 import { ExternalLink, Github } from "lucide-react";
@@ -73,9 +74,16 @@ const MyProjects = () => {
               </h3>
 
               {/* Project Description */}
-              <p className="text-gray-600 text-sm lg:text-base leading-relaxed mb-6">
-                {item.description}
-              </p>
+              <div className="mb-6">
+                <ProjectDetails
+                  context={"context" in item ? item.context : undefined}
+                  problem={"problem" in item ? item.problem : undefined}
+                  built={"built" in item ? item.built : undefined}
+                  result={"result" in item ? item.result : undefined}
+                  technologies={item.technologies}
+                  description={item.description}
+                />
+              </div>
 
               {/* Project Actions */}
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">

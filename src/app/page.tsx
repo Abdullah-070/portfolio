@@ -11,31 +11,32 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Abdullah | Software Developer Portfolio",
   description:
-    "Software Developer with expertise in React, Next.js, TypeScript, React Ionic, and React Native. Passionate about building dynamic, responsive web and mobile applications. Skilled in integrating Firebase to deliver scalable and efficient backend solutions.",
+    "Full-stack developer and CS undergraduate building Python scraping and automation engines, REST APIs, and MERN web apps with Redis, MongoDB, Flask, and React.",
   keywords: [
-    "Frontend Web Developer",
+    "Full-Stack Developer",
+    "Python Developer",
+    "Web Scraping",
+    "Automation",
+    "MERN Stack Developer",
+    "Node.js Developer",
     "React Developer",
-    "Next.js Developer",
-    "React Ionic Developer",
-    "JavaScript Expert",
-    "TypeScript Developer",
-    "Web Application Developer",
-    "UI/UX Developer",
-    "Modern Web Development",
-    "Responsive Web Design",
+    "Flask",
+    "Redis",
+    "MongoDB",
+    "Software Developer Lahore",
   ],
   robots: "index, follow",
   openGraph: {
     images: "https://i.ibb.co/JR9gd9Xk/image.png",
     title: "Abdullah | Software Developer Portfolio",
     description:
-      "Software Developer with expertise in React, Next.js, TypeScript, React Ionic, and React Native. Passionate about building dynamic, responsive web and mobile applications. Skilled in integrating Firebase to deliver scalable and efficient backend solutions.",
+      "Full-stack developer and CS undergraduate building Python scraping and automation engines, REST APIs, and MERN web apps with Redis, MongoDB, Flask, and React.",
   },
   twitter: {
     images: "https://i.ibb.co/JR9gd9Xk/image.png",
     title: "Abdullah | Software Developer Portfolio",
     description:
-      "Software Developer with expertise in React, Next.js, TypeScript, React Ionic, and React Native. Passionate about building dynamic, responsive web and mobile applications. Skilled in integrating Firebase to deliver scalable and efficient backend solutions.",
+      "Full-stack developer and CS undergraduate building Python scraping and automation engines, REST APIs, and MERN web apps with Redis, MongoDB, Flask, and React.",
   },
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#000000",
@@ -81,12 +82,12 @@ const Home = () => {
               {/* Enhanced Description */}
               <div className="space-y-6">
                 <p className="text-gray-700 text-lg lg:text-xl xl:text-2xl leading-relaxed max-w-2xl animate-fade-in-up delay-500">
-                  As an enthusiastic Software Developer, 
+                  As a full-stack Software Developer, 
                   {" "}
                   <span className="text-primary-600 font-semibold">
-                     I build fast, scalable apps with
+                     I build data-driven web systems with
                   </span>{" "}
-                  React, Next.js, and modern technologies. Currently completing my CS degree while working on real-world projects.
+                  Python, Node.js, and React, from web scraping engines to MERN apps. Currently completing my CS degree while working on real-world projects.
                 </p>
 
                 {/* Key Highlights */}
@@ -96,6 +97,12 @@ const Home = () => {
                   </span>
                   <span className="bg-primary-50 text-primary-700 px-4 py-2 rounded-full text-sm font-medium border border-primary-200">
                     Full Stack Development
+                  </span>
+                  <span className="bg-primary-50 text-primary-700 px-4 py-2 rounded-full text-sm font-medium border border-primary-200">
+                    Python &amp; Web Scraping
+                  </span>
+                  <span className="bg-primary-50 text-primary-700 px-4 py-2 rounded-full text-sm font-medium border border-primary-200">
+                    MERN Stack
                   </span>
                   <span className="bg-primary-50 text-primary-700 px-4 py-2 rounded-full text-sm font-medium border border-primary-200">
                     AI Integration

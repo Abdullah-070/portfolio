@@ -11,18 +11,18 @@ import {
 const MyStory = () => {
   const storyTimeline = [
     {
-      year: "Jul 2026 - Present",
+      year: "Jul - Aug 2026",
       title: "Full-Stack Intern - Sanestix",
       description:
-        "Building the Python scraper engine for a multi-source lead-generation platform with Playwright, Selenium, and BeautifulSoup. Built a Redis-based worker and integrated MongoDB for job tracking, while applying project management practices and Jira to resolve bugs and tickets.",
+        "Built the Python scraper engine for a multi-source lead-generation platform (Data Intelligence Platform) with Playwright, Selenium, and BeautifulSoup. Designed a standardized result schema, built a Redis BRPOP worker decoupling the engine from the Node.js backend, integrated MongoDB (PyMongo), and contributed to authentication, tenancy security, and secrets management.",
       icon: Code2,
       color: "from-orange-500 to-orange-600",
     },
     {
-      year: "Jul 2026 - Present",
+      year: "Jun - Aug 2026",
       title: "Volunteer Intern - Alkhidmat Foundation Pakistan",
       description:
-        "Completing structured weekly training in disaster response, including First Aid, BLS, fire-fighting, and water rescue orientation. Executing the Water Harvesting community impact project.",
+        "Completed weekly disaster-response training (First Aid, basic life support, fire-fighting) and contributed to the GEN Z Entrepreneurship Initiative by surveying students, analyzing findings, and compiling a report. Received an Achievement Award for completing the Summer Internship Program 2026.",
       icon: Heart,
       color: "from-red-500 to-red-600",
     },
@@ -75,10 +75,10 @@ const MyStory = () => {
       color: "from-orange-500 to-orange-600",
     },
     {
-      year: "Feb 2024 - Dec 2027",
+      year: "Feb 2024 - Present",
       title: "COMSATS University Islamabad",
       description:
-        "BS Computer Science at COMSATS University Islamabad, Lahore Campus with a CGPA of 3.28/4.0. Relevant coursework: Data Structures & Algorithms, OOP, Database Systems, Web Technologies, AI, and Operating Systems.",
+        "BS Computer Science at COMSATS University Islamabad, Lahore Campus with a CGPA of 3.29/4.0. Relevant coursework: Data Structures & Algorithms, OOP, Database Systems, Web Technologies, AI, and Operating Systems.",
       icon: GraduationCap,
       color: "from-primary-light to-primary-600",
     },
@@ -110,37 +110,19 @@ const MyStory = () => {
           <div className="space-y-12">
             {storyTimeline.map((item, index) => {
               const isEven = index % 2 === 0;
-              
+              // One card per item; on lg screens it alternates left/right of the centre line.
+              const sideClasses = isEven
+                ? "lg:col-start-1 lg:justify-self-end"
+                : "lg:col-start-3 lg:justify-self-start";
+
               return (
                 <div
-                  key={item.year}
-                  className="relative flex items-center gap-0 lg:gap-0"
+                  key={`${item.year}-${item.title}`}
+                  className="relative grid grid-cols-[4rem_1fr] lg:grid-cols-[1fr_4rem_1fr] items-center gap-x-8"
                   style={{ animationDelay: `${300 + index * 200}ms` }}
                 >
-                  {/* Left Content (visible on even index on desktop) */}
-                  {isEven ? (
-                    <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:pr-8">
-                      <div className="w-full max-w-md bg-white rounded-2xl shadow-lg border border-gray-100 p-6 lg:p-8 hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1 animate-fade-in-up"
-                        style={{ animationDelay: `${300 + index * 200}ms` }}>
-                        <div
-                          className={`inline-block bg-gradient-to-r ${item.color} text-white px-4 py-2 rounded-full text-sm font-bold mb-4`}
-                        >
-                          {item.year}
-                        </div>
-                        <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-3">
-                          {item.title}
-                        </h3>
-                        <p className="text-gray-600 text-base lg:text-lg leading-relaxed">
-                          {item.description}
-                        </p>
-                      </div>
-                    </div>
-                  ) : (
-                    <div className="hidden lg:flex lg:flex-1"></div>
-                  )}
-
-                  {/* Center Timeline Icon */}
-                  <div className="relative z-10 flex-shrink-0 flex justify-center">
+                  {/* Timeline icon */}
+                  <div className="relative z-10 col-start-1 row-start-1 lg:col-start-2 flex justify-center">
                     <div
                       className={`w-16 h-16 bg-gradient-to-r ${item.color} rounded-full flex items-center justify-center shadow-lg border-4 border-white hover:scale-110 transition-transform duration-300`}
                     >
@@ -148,44 +130,22 @@ const MyStory = () => {
                     </div>
                   </div>
 
-                  {/* Right Content (visible on odd index on desktop) */}
-                  {!isEven ? (
-                    <div className="hidden lg:flex lg:flex-1 lg:pl-8">
-                      <div className="w-full max-w-md bg-white rounded-2xl shadow-lg border border-gray-100 p-6 lg:p-8 hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1 animate-fade-in-up"
-                        style={{ animationDelay: `${300 + index * 200}ms` }}>
-                        <div
-                          className={`inline-block bg-gradient-to-r ${item.color} text-white px-4 py-2 rounded-full text-sm font-bold mb-4`}
-                        >
-                          {item.year}
-                        </div>
-                        <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-3">
-                          {item.title}
-                        </h3>
-                        <p className="text-gray-600 text-base lg:text-lg leading-relaxed">
-                          {item.description}
-                        </p>
-                      </div>
+                  {/* Card */}
+                  <div
+                    className={`col-start-2 row-start-1 ${sideClasses} w-full lg:max-w-md bg-white rounded-2xl shadow-lg border border-gray-100 p-6 lg:p-8 hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1 animate-fade-in-up`}
+                    style={{ animationDelay: `${300 + index * 200}ms` }}
+                  >
+                    <div
+                      className={`inline-block bg-gradient-to-r ${item.color} text-white px-4 py-2 rounded-full text-sm font-bold mb-4`}
+                    >
+                      {item.year}
                     </div>
-                  ) : (
-                    <div className="hidden lg:flex lg:flex-1"></div>
-                  )}
-
-                  {/* Mobile View - always on the right */}
-                  <div className="flex lg:hidden flex-1 pl-8">
-                    <div className="w-full bg-white rounded-2xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-all duration-500 transform hover:-translate-y-1 animate-fade-in-up"
-                      style={{ animationDelay: `${300 + index * 200}ms` }}>
-                      <div
-                        className={`inline-block bg-gradient-to-r ${item.color} text-white px-4 py-2 rounded-full text-sm font-bold mb-4`}
-                      >
-                        {item.year}
-                      </div>
-                      <h3 className="text-lg lg:text-2xl font-bold text-gray-800 mb-3">
-                        {item.title}
-                      </h3>
-                      <p className="text-gray-600 text-base leading-relaxed">
-                        {item.description}
-                      </p>
-                    </div>
+                    <h3 className="text-lg lg:text-2xl font-bold text-gray-800 mb-3">
+                      {item.title}
+                    </h3>
+                    <p className="text-gray-600 text-base lg:text-lg leading-relaxed">
+                      {item.description}
+                    </p>
                   </div>
                 </div>
               );

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import ProjectDetails from "@/components/ProjectDetails";
 
 const ProjectBanner = () => {
   // Get the first 3 projects for the banner
@@ -19,8 +20,8 @@ const ProjectBanner = () => {
             Featured<span className="text-primary-600"> Projects</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Explore some of my recent work that showcases my expertise in modern
-            web and mobile development
+            Explore some of my recent work across full-stack web apps, AI
+            integration, and Python automation
           </p>
         </div>
 
@@ -85,9 +86,18 @@ const ProjectBanner = () => {
                   <span className="text-primary-600">.</span>
                 </h3>
 
-                <p className="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-3">
-                  {project.description}
-                </p>
+                <div className="mb-4">
+                  <ProjectDetails
+                    context={"context" in project ? project.context : undefined}
+                    problem={"problem" in project ? project.problem : undefined}
+                    built={"built" in project ? project.built : undefined}
+                    result={"result" in project ? project.result : undefined}
+                    technologies={project.technologies}
+                    description={project.description}
+                    maxTech={4}
+                    compact
+                  />
+                </div>
 
                 {project.link && (
                   <Link
@@ -112,9 +122,9 @@ const ProjectBanner = () => {
               Want to See More?
             </h3>
             <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-              Discover my complete portfolio of projects, from web applications
-              to mobile apps, each crafted with attention to detail and modern
-              development practices.
+              Discover my complete portfolio of projects, from full-stack web
+              applications to scraping and automation tools, each crafted with
+              attention to detail and clean, structured code.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

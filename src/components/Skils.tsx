@@ -10,7 +10,7 @@ import {
   GitBranch,
   Code2,
   Laptop,
-  Tablet,
+  Bot,
 } from "lucide-react";
 
 const Skils = () => {
@@ -64,9 +64,13 @@ const Skils = () => {
         "Git",
         "GitHub",
         "REST APIs",
+        "Jira",
+        "Redis",
+        "PyMongo",
         "Web Scraping",
         "BeautifulSoup",
         "Selenium",
+        "Playwright",
         "OOP",
       ],
       color: "from-purple-500 to-purple-600",
@@ -199,20 +203,20 @@ const Skils = () => {
                     Desktop App Development
                   </h4>
                   <p className="text-sm text-gray-600">
-                    Cross-platform solutions
+                    Python &amp; PySide6 POS systems
                   </p>
                 </div>
               </div>
 
               <div className="flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border border-gray-100 group hover:shadow-md transition-all duration-300">
                 <div className="p-3 bg-blue-100 rounded-lg group-hover:bg-blue-200 transition-colors duration-200">
-                  <Tablet className="w-6 h-6 text-blue-600" />
+                  <Bot className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800">
-                    Mobile App Development
+                    Web Scraping &amp; Automation
                   </h4>
-                  <p className="text-sm text-gray-600">Cross-platform solutions</p>
+                  <p className="text-sm text-gray-600">Playwright, Selenium, BeautifulSoup</p>
                 </div>
               </div>
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ScraperArchitecture from "@/components/ScraperArchitecture";
 import React from "react";
 import { Calendar, MapPin, ExternalLink, CheckCircle, ArrowRight } from "lucide-react";
 import { Metadata } from "next";
@@ -48,11 +49,11 @@ const Experience = () => {
                   <div className="space-y-3">
                     <div className="flex items-center gap-3 text-gray-600">
                       <Calendar className="w-5 h-5 text-primary-600" />
-                      <span className="font-medium">July 2026 - Present</span>
+                      <span className="font-medium">July 2026 - August 2026</span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-600">
                       <MapPin className="w-5 h-5 text-primary-600" />
-                      <span>Hybrid</span>
+                      <span>Remote</span>
                     </div>
                   </div>
 
@@ -79,7 +80,7 @@ const Experience = () => {
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 text-lg leading-relaxed">
-                      Building the Python scraper engine for a multi-source lead-generation platform, developing modular scrapers (LinkedIn, Google Maps, Website, Facebook, Instagram) with Playwright, Selenium, and BeautifulSoup.
+                      Built the Python scraper engine for a multi-source lead-generation platform (Data Intelligence Platform), developing modular scrapers (LinkedIn, Google Maps, Website, Facebook, Instagram) with Playwright, Selenium, and BeautifulSoup.
                     </p>
                   </div>
 
@@ -93,7 +94,7 @@ const Experience = () => {
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 text-lg leading-relaxed">
-                      Built a Redis-based worker (BRPOP queue consumer) that decouples the Python engine from the Node.js backend via plain JSON, avoiding queue-framework lock-in.
+                      Built a Redis-based worker (BRPOP queue consumer) that decouples the Python engine from the Node.js backend via plain JSON, avoiding queue-framework lock-in (BullMQ vs. Celery/RQ).
                     </p>
                   </div>
 
@@ -107,10 +108,19 @@ const Experience = () => {
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 text-lg leading-relaxed">
+                      Contributed to authentication, tenancy security, and secrets management, and resolved production bugs on Sanestix Flow.
+                    </p>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
+                    <p className="text-gray-700 text-lg leading-relaxed">
                       Applied project management practices and used Jira to track, prioritize, and resolve bugs and tickets throughout the sprint cycle.
                     </p>
                   </div>
                 </div>
+
+                <ScraperArchitecture />
               </div>
             </div>
           </div>
@@ -135,18 +145,18 @@ const Experience = () => {
                   <div className="space-y-3">
                     <div className="flex items-center gap-3 text-gray-600">
                       <Calendar className="w-5 h-5 text-primary-600" />
-                      <span className="font-medium">July 2026 - Present</span>
+                      <span className="font-medium">June 2026 - August 2026</span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-600">
                       <MapPin className="w-5 h-5 text-primary-600" />
-                      <span>Hybrid, Lahore, Pakistan</span>
+                      <span>Lahore, Pakistan</span>
                     </div>
                   </div>
 
                   <div className="space-y-3">
                     <h3 className="text-lg font-semibold text-gray-800">Skills Applied</h3>
                     <div className="flex flex-wrap gap-2">
-                      {["Disaster Response", "First Aid", "Project Management", "Community Engagement"].map((tech) => (
+                      {["Disaster Response", "First Aid", "Survey & Data Analysis", "Report Writing"].map((tech) => (
                         <span key={tech} className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-medium">
                           {tech}
                         </span>
@@ -166,14 +176,35 @@ const Experience = () => {
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 text-lg leading-relaxed">
-                      Completing structured weekly training in disaster response, including First Aid, BLS, fire-fighting, and water rescue orientation.
+                      Completed structured weekly training in disaster response, including First Aid, basic life support, and fire-fighting orientation.
                     </p>
                   </div>
 
                   <div className="flex items-start gap-3">
                     <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
                     <p className="text-gray-700 text-lg leading-relaxed">
-                      Currently executing the Water Harvesting community impact project, applying project management, teamwork, and community engagement skills to deliver a social-impact initiative.
+                      Contributed to the GEN Z Entrepreneurship Initiative (Future Entrepreneurs Mapping Challenge) by surveying 10 students and recent graduates in Lahore on entrepreneurship interest, challenges, and training needs.
+                    </p>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
+                    <p className="text-gray-700 text-lg leading-relaxed">
+                      Analyzed responses to identify promising startup ideas (freelancing 70%, tech/app-based 60%) and key barriers (funding 60%), and compiled findings and recommendations into a report.
+                    </p>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
+                    <p className="text-gray-700 text-lg leading-relaxed">
+                      Created and published an entrepreneurship awareness post on Instagram and LinkedIn using the campaign hashtags.
+                    </p>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-6 h-6 text-primary-600 mt-1 flex-shrink-0" />
+                    <p className="text-gray-700 text-lg leading-relaxed">
+                      Received an Achievement Award for completing the Alkhidmat Summer Internship Program 2026.
                     </p>
                   </div>
                 </div>

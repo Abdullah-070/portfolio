@@ -5,30 +5,30 @@ import { Code, Sparkles, Zap, Shield, Lock } from "lucide-react";
 export const metadata: Metadata = {
   title: "Projects | Muhammad Abdullah - Software Developer",
   description:
-    "Explore projects developed by Muhammad Abdullah, a software developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+    "Explore projects developed by Muhammad Abdullah, a full-stack developer building Python scraping and automation tools, REST APIs, and MERN web apps.",
   keywords: [
     "Web Development Projects",
-    "Frontend Projects",
+    "Full-Stack Projects",
+    "Python Projects",
+    "Web Scraping Projects",
+    "MERN Stack Projects",
+    "Flask Projects",
     "React Projects",
-    "Next.js Portfolio",
-    "JavaScript Projects",
-    "TypeScript Projects",
-    "UI/UX Development",
-    "Modern Web Applications",
-    "Responsive Websites",
+    "REST API Projects",
+    "AI Integration Projects",
   ],
   robots: "index, follow",
   openGraph: {
     images: "https://i.ibb.co/C5QRJzQF/image.png",
     title: "Projects | Muhammad Abdullah - Software Developer",
     description:
-      "Explore projects developed by Muhammad Abdullah, a Software developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+      "Explore projects developed by Muhammad Abdullah, a full-stack developer building Python scraping and automation tools, REST APIs, and MERN web apps.",
   },
   twitter: {
     images: "https://i.ibb.co/C5QRJzQF/image.png",
     title: "Projects | Muhammad Abdullah - Software Developer",
     description:
-      "Explore projects developed by Muhammad Abdullah, a Software developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+      "Explore projects developed by Muhammad Abdullah, a full-stack developer building Python scraping and automation tools, REST APIs, and MERN web apps.",
   },
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#000000",

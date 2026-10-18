@@ -12,7 +12,7 @@ const Myplace = () => {
             <Marquee speed={30}>
               <div className="flex gap-5 items-center">
                 <div className="bg-gray-800 text-white py-2 px-4 rounded-lg">
-                  React & Next.js
+                  React & MERN Stack
                 </div>
                 <Star className="text-primary-600" />
                 <div className="bg-gray-800 text-white py-2 px-4 rounded-lg">

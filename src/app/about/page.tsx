@@ -7,30 +7,30 @@ import { User, Target, Heart, Award } from "lucide-react";
 export const metadata: Metadata = {
   title: "About | Muhammad Abdullah - Software Developer",
   description:
-    "Learn more about Muhammad Abdullah, a software developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+    "Learn more about Muhammad Abdullah, a full-stack developer building Python scraping and automation tools, REST APIs, and MERN web apps.",
   keywords: [
     "About Muhammad Abdullah",
-    "Frontend Developer",
-    "React Developer",
-    "Next.js Developer",
+    "Full-Stack Developer",
+    "Python Developer",
+    "MERN Stack Developer",
     "Web Development Journey",
-    "JavaScript Developer",
-    "UI/UX Developer",
+    "Web Scraping Developer",
+    "Node.js Developer",
     "Software Engineer",
-    "Modern Web Technologies",
+    "Automation",
   ],
   robots: "index, follow",
   openGraph: {
     images: "https://i.ibb.co/SwV3FCz9/image.png",
     title: "About | Muhammad Abdullah - Software Developer",
     description:
-      "Learn more about Muhammad Abdullah, a software developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+      "Learn more about Muhammad Abdullah, a full-stack developer building Python scraping and automation tools, REST APIs, and MERN web apps.",
   },
   twitter: {
     images: "https://i.ibb.co/SwV3FCz9/image.png",
     title: "About | Muhammad Abdullah - Software Developer",
     description:
-      "Learn more about Muhammad Abdullah, a software developer specializing in React, Next.js, TypeScript, and modern web technologies.",
+      "Learn more about Muhammad Abdullah, a full-stack developer building Python scraping and automation tools, REST APIs, and MERN web apps.",
   },
   viewport: "width=device-width, initial-scale=1.0",
   themeColor: "#000000",

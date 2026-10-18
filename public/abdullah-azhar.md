@@ -3,13 +3,13 @@
 |     |     |                                       | Lahore, | Pakistan | | m.abdullahazhar070@gmail.com |     |          |                                  | | +92 | 328 | 943 4348 |     |     |
 |     |     | linkedin.com/in/m-abdullah-9400b5319/ |         |          |                                |     | |        | abdullah-070.github.io/portfolio |       |     |          |     |     |
 Summary
-CS undergraduate at COMSATS University Islamabad (Class of 2027, CGPA: 3.35/4.0) with practical experience
+CS undergraduate at COMSATS University Islamabad (CGPA: 3.29/4.0) with practical experience
 in full-stack web development, Python scripting, and building academic AI-assisted tools. Comfortable across frontend,
 | backend, | and database | layers | with | a focus | on writing | clean, | structured | code. |     |     |     |     |     |
 | -------- | ------------ | ------ | ---- | ------- | ---------- | ------ | ---------- | ----- | --- | --- | --- | --- | --- |
 Education
-COMSATS University Islamabad, Lahore Campus Feb 2024 – Dec 2027
-| B.S. Computer |     | Science — | CGPA: | 3.35/4.0 |     |     |     |     |     |     |     | Lahore, | Pakistan |
+COMSATS University Islamabad, Lahore Campus Feb 2024 – Present
+| B.S. Computer |     | Science — | CGPA: | 3.29/4.0 |     |     |     |     |     |     |     | Lahore, | Pakistan |
 | ------------- | --- | --------- | ----- | -------- | --- | --- | --- | --- | --- | --- | --- | ------- | -------- |
 • Relevant Coursework: Data Structures & Algorithms, OOP, Database Systems, Web Technologies, AI, Operating
 Systems

@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   keywords: [
     "Contact Abdullah",
     "Hire Software Developer",
-    "React Developer Contact",
-    "Next.js Developer Contact",
+    "Full-Stack Developer Contact",
+    "Python Developer Contact",
     "Web Developer Consultation",
-    "Freelance Web Developer",
+    "Freelance Python Developer",
     "Work with Abdullah",
-    "JavaScript Developer for Hire",
+    "MERN Stack Developer for Hire",
   ],
   robots: "index, follow",
   openGraph: {
